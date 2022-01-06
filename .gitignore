@@ -1,5 +1,7 @@
+*.ok_*
 *.zip
-*tests
-*.ok
-*__pycache__
+*tests/
+*__pycache__/
 *update.sh
+*ok
+*.ok
