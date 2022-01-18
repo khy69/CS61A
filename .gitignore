@@ -2,6 +2,6 @@
 *.zip
 *tests/
 *__pycache__/
-*update.sh
+*.sh
 *ok
 *.ok
