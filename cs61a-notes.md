@@ -38,7 +38,7 @@
 - calling function:a new frame
   - global
   - local
-    - name lookup order:local frame->**global frame**
+    - name lookup order:local frame->**global frame(read only)**
 
 ## lecture3
 
@@ -150,3 +150,31 @@ a function->a frame
 ### currying
 
 Multiple arg->single-argument,higher-order
+
+## lecture6
+
+### Nameerror
+
+- Variable-frame
+
+## lecture7
+
+### decorator
+
+- syntax
+
+~~~python
+@ATTR
+def aFunc(...):
+    ...
+~~~
+
+Equal to
+
+~~~python
+def aFunc(...):
+    ...
+aFunc = ATTR(aFunc)
+~~~
+
+name from non-local frame is **read-only**!
