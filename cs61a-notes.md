@@ -178,3 +178,74 @@ aFunc = ATTR(aFunc)
 ~~~
 
 name from non-local frame is **read-only**!
+
+a static attribute for func(e.g:calculate the number of time to call it):
+
+~~~python
+def hello():
+    hello.counter += 1
+    print(hello.counter)
+hello.counter = 0
+~~~
+
+## lecture8
+
+- Base case
+- recursive case
+- conditional statement
+
+functional abstraction
+
+Leap-faith(assume)
+
+second digit：偶数
+
+## lecture9
+
+- put the base cases first
+
+### tree recursion
+
+**not only one** recursive call
+
+## lecture10
+
+### in operator
+
+detect whether in a list
+
+## for loop
+
+~~~python
+for <value> in <sequence>:
+    <statement>
+    <statement>
+~~~
+
+#### get specific element
+
+~~~python
+for <name> in <expression>:
+	<suite>
+~~~
+
+Get an element from expression and **bind to name**
+
+### range
+
+a sequence of integers
+
+[left(default==0),right)
+
+### generate from another list
+
+~~~python
+[<map exp> for <name> in <iterable sequence> if <filter>(get correct element)]
+~~~
+
+### string
+
+Multi-line strings automatically insert new lines
+
+- Match substrings:use `in`
+- 
