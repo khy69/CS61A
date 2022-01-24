@@ -248,4 +248,33 @@ a sequence of integers
 Multi-line strings automatically insert new lines
 
 - Match substrings:use `in`
-- 
+
+## lecture11
+
+### slicing
+
+[begin(default==0),end)
+
+### helper function
+
+### Built-in func
+
+- Arg `key`:a lambda expression to compare
+
+## lecture12
+
+### dictionary
+
+dict
+
+- Key(**unique**)->value
+
+- Iterate:in the order keys were added
+
+~~~python
+{key:value for <name> in <iter>}
+~~~
+
+## lecture13
+
+**Recursive structure implies recursive algorithm!**
